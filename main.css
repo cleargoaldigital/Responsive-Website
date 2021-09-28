@@ -10,10 +10,6 @@
     font-family: 'Nanum Myeongjo', serif;
 }
 
-body {
-    margin: 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -139,14 +135,20 @@ img {
         font-size: 10px;
     }
     .hero-text h1 {
-        font-size: 1.3rem;
+        font-size: 1.3em;
+        font-weight: bold;
     }
     .hero-text h2 {
-        font-size: 3rem;
+        font-size: 2.5em;
+        font-weight: bold;
     }
+   .hero-icons img {
+     width: 100px;
+     height: 80px;
+   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 425px) {
     .hero-icons {
         display: none;
     }
