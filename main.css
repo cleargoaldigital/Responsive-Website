@@ -68,7 +68,6 @@ img {
 .hero-content {
     width: 100%;
     position: relative;
-    padding-left: 20px;
 }
 
 .hero-section img {
@@ -137,10 +136,16 @@ img {
     }
     .hero-text h1 {
         font-size: 1.3em;
+        font-weight: bold;
     }
     .hero-text h2 {
         font-size: 2.5em;
+        font-weight: bold;
     }
+   .hero-icons img {
+     width: 100px;
+     height: 80px;
+   }
 }
 
 @media screen and (max-width: 425px) {
@@ -148,17 +153,6 @@ img {
         display: none;
     }
 }
-
-@media screen and (max-width: 935px) {
-    .hero-icons img {
-        width: auto;
-        height: 50px;
-    }
-    .hero-content {
-        padding-left: 15px;
-    }
-}
-
 
 /* HELP SECTION---------- */
 
@@ -270,7 +264,6 @@ button {
     color: red;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 15px;
 }
 
 @media screen and (max-width: 600px) {
